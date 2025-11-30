@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import END, RAISED, Button
 from tkinter.filedialog import askopenfilename, asksaveasfilename
 window = tk.Tk()
+
 window.title("Text Editor")
 window.geometry("600x500")
 window.rowconfigure(0, minsize=800, weight=1)
